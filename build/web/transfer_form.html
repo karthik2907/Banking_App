@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Loginpage</title>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="transfer_form_style.css">
+   
+</head>
+
+<body>
+ 
+    <div class="wrapper">
+        <h2>Transfer Form</h2>
+       
+        <form method="post" action="store" id="myform">
+            
+            <div class="input_field">
+                <input type="text" placeholder="Your name.." name="sender">
+            </div>
+            <div class="input_field">
+                <input type="text" placeholder="Receiver name..." name="receiver" visible required>
+            </div>
+             <div class="input_field">
+                <input type="text" placeholder="Account Number(Receiver)" name="numb" visible required>
+            </div>
+             <div class="input_field">
+                <input type="text" placeholder="Amount(₹)" name="amount" visible required>
+            </div>
+            
+
+
+        
+
+            <div class="btn">
+                <input type="submit" value="Send" >
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
